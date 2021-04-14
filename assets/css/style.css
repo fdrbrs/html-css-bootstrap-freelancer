@@ -111,3 +111,23 @@
 .pic_box{
     padding-bottom: 4rem;
 }
+
+
+/* Form */
+
+/* input, textarea {
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+} */
+
+.form-control::placeholder {
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 0px;
+    padding: 0 0 20px 0;
+}
