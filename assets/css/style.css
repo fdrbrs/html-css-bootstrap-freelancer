@@ -16,12 +16,10 @@
 } */
 
 .info {
-    height: 200px;
     background-color: #3A546D;
 }
 
 .copyright {
-    height: 100px;
     background-color: #2C3E50;
 }
 
@@ -36,6 +34,10 @@
 
 .text-dark{
     color: #333333;
+}
+
+.text-green{
+    color: #1ABC9C;
 }
 
 .bg-green {
@@ -130,4 +132,33 @@
     border-bottom: 1px solid #CCCCCC;
     border-radius: 0px;
     padding: 0 0 20px 0;
+}
+
+/* Footer */
+
+/* Info Section */
+
+.foot_title{
+    font-size:1.2rem;
+    padding-bottom: 10px;
+}
+
+/* Icons */
+
+.ico{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.ico i {
+    margin-top: 10px;
+}
+
+/* Copyright Section */
+
+.copyright {
+    font-size: 0.8rem;
 }
