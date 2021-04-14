@@ -1,36 +1,13 @@
-/* Debug Rules */
 
-/* body{
-} */
+/* Utility Rules */
 
-/* .jumbo{
-    background-color: #1ABC9C;
-} */
-
-/* .portfolio {
-    height: 300px;
-} */
-
-/* .about{
-    background-color: ;
-} */
-
-.info {
+.bg-blue {
     background-color: #3A546D;
 }
 
 .copyright {
     background-color: #2C3E50;
 }
-
-/* .dbg_pic {
-    background-color: red;
-    width: 200px;
-    height: 150px;
-    margin: 1rem;
-} */
-
-/* Utility Rules */
 
 .text-dark{
     color: #333333;
@@ -44,6 +21,30 @@
     background-color: #1ABC9C;
 }
 
+/* Nav Bar */
+
+.nav_items ul{
+    list-style: none;
+    margin-top: 15px;
+
+}
+
+.nav_items ul li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.nav_items ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+/* Hamburger  */
+
+.burger{
+    border: 1px solid white;
+    border-radius: 3px;
+}
 /*Star Divider */
 
 .hrdivider {
@@ -79,6 +80,10 @@
 
 
 /* Jumbo */
+
+h1 {
+    font-size: 4rem;
+}
 
 .jumbo img{
     width: 250px;
@@ -161,4 +166,60 @@
 
 .copyright {
     font-size: 0.8rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 767px) {
+    .nav_items {
+        display: none;
+    }
+
+    .navbar-brand h4 {
+        font-size: 1.2rem;
+    }
+
+    .jumbo img{
+        width: 200px;
+        padding: 1rem 0 1rem 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .hrdivider {
+        width: 200px;
+    }
+
+    .jumbo_subtext {
+        font-size:1.2rem;
+        padding: 1rem 0 1rem 0;
+    }
+
+    .section_title{
+        padding: 2rem 0 1rem 0;
+        font-size: 1.5rem;
+    }
+
+    .about_text, form {
+        width: 60%;
+        margin: auto;
+    }
+
+    .foot_title{
+        font-size:1rem;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .inln{
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .burger {
+        display: none;
+    }
 }
